@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+<style>
+    * {
+        background-color: rgba(151, 194, 195, 0.714);
+    }
+    table {
+        border-collapse: collapse;
+    }
+    .para1 {
+        color: brown;
+    }
+    .para2 {
+        color: blueviolet;
+    }
+    .para3 {
+        color: chocolate;
+    }
+
+</style>
+<!-- Header Section -->
+<h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><i>Practice set</i></h1>
+<header>
+    <nav>
+        <ul style="list-style-type: none;">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="container">
+    <main>
+
+        <!-- Article Section -->
+        <article>
+            <h2>Article Title</h2>
+            <p class="para1"><small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium incidunt qui nulla velit quo
+                ratione recusandae repellat animi perferendis nostrum laboriosam ipsum soluta eaque accusamus vero
+                explicabo obcaecati, reiciendis fugiat?</small></p>
+
+            <section>
+                <h3>Section Title</h3>
+                <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, eaque neque tenetur culpa eum
+                    veniam amet impedit possimus perspiciatis, quae deserunt iste veritatis maiores autem quidem nam!
+                    Temporibus suscipit commodi praesentium nam omnis neque ut, sint, delectus excepturi hic ratione
+                    perferendis? Perferendis quod dicta necessitatibus omnis esse qui obcaecati non rerum consequuntur,
+                    aliquid aut! Fugit iusto perspiciatis veritatis, consequuntur ipsum necessitatibus ipsa itaque
+                    deserunt labore, eum, illum qui amet voluptates!</p>
+
+            </section>
+        </article>
+
+        <!-- Aside Section -->
+        <aside>
+            <h3>Related Content</h3>
+            <p class="para3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos perspiciatis consequuntur sed qui illum
+                cumque quod aut ea, animi iste laudantium numquam magni id, consectetur praesentium voluptas rerum
+                necessitatibus nihil vitae rem, libero obcaecati. Nobis impedit modi similique rem fugiat officiis
+                necessitatibus, sed ducimus itaque officia praesentium ipsa dolor et.</p>
+        </aside>
+    </div>
+        <hr>
+        <h2>Table</h2>
+        <table border="">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Imp links</th>
+               </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Shahil khan</td>
+                    <td>xyz@gmail.com</td>
+                    <td><a href="https://www.ducatindia.com/">Ducatindia</a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sorav kumar</td>
+                    <td>xyz@gmail.com</td>
+                    <td><a href="https://www.ducatindia.com/">Ducatindia</a></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Amit singh</td>
+                    <td>xyz@gmail.com</td>
+                    <td><a href="https://www.ducatindia.com/">Ducatindia</a></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Rahul meena</td>
+                    <td>xyz@gmail.com</td>
+                    <td><a href="https://www.ducatindia.com/">Ducatindia</a></td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h2>Form Creation</h2>
+        <form action="" method="" enctype="multipart/form-data">
+            <div>
+                <!-- Text Input -->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Name">
+                <label for="srname">Surname:</label>
+                <input type="text" id="Surname" name="Surname" placeholder="Enter Surname">
+                <!-- Image Input -->
+                <label for="image">Image</label>
+                <input type="image" src="" alt="No image here">
+            </div>
+            <br>
+            <div>
+                <!-- Email Input -->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email">
+
+                <!-- Password Input -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password">
+                <!-- URL Input -->
+                <label for="url">Enter URL:</label>
+                <input type="url" name="url" id="url" placeholder="Enter URL">
+            </div>
+            <br>
+            <div>
+                <label for="tel">Mob Number:</label>
+                <input type="tel" name="tel" id="tel" placeholder="Mobile number">
+            </div>
+            <br>
+            <div>
+                <!-- Date Input -->
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>
+            <br>
+            <div>
+                <!-- Radio Buttons -->
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="Other" name="gender" value="Other">
+                <label for="Other">Other</label>
+            </div>
+            <br>
+            <div>
+                <!-- Textarea -->
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Enter your massage here"></textarea>
+            </div>
+            <br>
+            <div>
+                <!-- Select Dropdown -->
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="ind">India</option>
+                    <option value="usa">United States</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="australia">Australia</option>
+                    <option value="germany">Germany</option>
+                    <option value="france">France</option>
+                    <option value="japan">Japan</option>
+                    <option value="china">China</option>
+                    <option value="india">India</option>
+                    <option value="brazil">Brazil</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="south-africa">South Africa</option>
+                    <option value="nigeria">Nigeria</option>
+                    <option value="russia">Russia</option>
+                    <option value="italy">Italy</option>
+                    <option value="spain">Spain</option>
+                    <option value="argentina">Argentina</option>
+                    <option value="south-korea">South Korea</option>
+                    <option value="saudi-arabia">Saudi Arabia</option>
+                    <option value="turkey">Turkey</option>
+
+                </select>
+            </div>
+            <br>
+            <div>
+                <!-- File Upload -->
+                <label for="file">Upload File:</label>
+                <input type="file" id="file" name="file">
+            </div>
+            <br>
+            <div>
+                <!-- Checkbox -->
+                <input type="checkbox" id="subscribe" name="subscribe" value="subscribe">
+                <label for="subscribe">Subscribe Ducat</label>
+            </div>
+            <br>
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+
+        </form>
+    </main>
+</body>
+
+</html>
